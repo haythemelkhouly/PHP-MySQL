@@ -1,8 +1,8 @@
 <?php
 $hostname = "localhost";
-$username = "root";
-$password = "";
-$database = "phpcrud";
+$username = "phpapp";
+$password = "mysql123";
+$database = "default";
 
 // connection
 $conn = mysqli_connect($hostname, $username, $password, $database);
